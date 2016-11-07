@@ -1,13 +1,12 @@
 puts "Введите стороны треугольника:"
-#название переменных оставил, чтобы можно было не менять всю логику
 puts "Введите a:"
-a = gets.to_f
+side1 = gets.to_f
 puts "Введите b:"
-b = gets.to_f
+side2 = gets.to_f
 puts "Введите c:"
-c = gets.to_f
-puts "Cтороны треугольника #{a}, #{b}, #{c}"
-sides = [a,b,c].sort!
+side3 = gets.to_f
+puts "Cтороны треугольника #{side1}, #{side2}, #{side3}"
+sides = [side1,side2,side3].sort!
 if sides[0] == sides[1] && sides[1] == sides[2]
 	puts "Треугольник равносторонний"
 elsif sides[0] == sides[1]	
