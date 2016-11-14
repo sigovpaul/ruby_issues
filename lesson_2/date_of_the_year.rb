@@ -18,7 +18,6 @@ if year % 4 == 0 && year % 100 != 0 || year % 400 == 0
 else
   puts "Год невисокосный"
 end
-
 count = 0
 
 for i in 0..month-2
