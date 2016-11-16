@@ -13,6 +13,7 @@ loop do
   else
     product_info[name] = {price => quantity}
   end
+  
 puts product_info
 product_cost[name] = price * quantity
 puts "За текущий товар #{name} - #{product_cost[name]}"
